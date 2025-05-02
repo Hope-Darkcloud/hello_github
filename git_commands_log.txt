@@ -1,0 +1,18 @@
+git init
+# Yeni bir Git deposu başlatır.
+
+git add .
+# Tüm dosyaları git index'ine ekler.
+
+git commit -m "Initial commit: Hello GitHub C project"
+# Yapılan değişiklikleri açıklamalı şekilde kayıt altına alır.
+
+git remote add origin https://github.com/kullanici-adin/hello_github.git
+# Yerel repository'yi GitHub’daki uzak depoya bağlar.
+
+git branch -M main
+# Varsayılan dalı 'main' olarak ayarlar.
+
+git push -u origin main
+# Kodları uzak GitHub deposuna yükler.
+
